@@ -7,7 +7,7 @@ $(document).ready(function () {
         var greetingText;
 
         if (hour >= 6 && hour < 12) {
-            greetingText = 'Hi, Good Aorning.';
+            greetingText = 'Hi, Good Morning.';
         } else if (hour >= 12 && hour < 18) {
             greetingText = 'Hi, Good Afternoon.';
         } else {
